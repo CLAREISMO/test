@@ -19,13 +19,24 @@ we will use a new dataset so that you can observe different behaviors and infer 
 
 **describe() method:**
 
-The describe() method: returns a DataFrame with a statistical summary of the columns of the DataFrame df of the type. For numeric data (number) the mean, standard deviation, minimum, maximum, and quartiles are calculated. For non-numeric data (object) the number of values, the number of distinct values, the mode, and their frequency are calculated. If the type is not specified, only numeric columns are considered.
+
+**describe() method for numeric values:** The describe() method: returns a DataFrame with a statistical summary of the columns of the DataFrame df of the type. For numeric data (number) the mean, standard deviation, minimum, maximum, and quartiles are calculated. This method generates a high-level summary of the attributes of the given column. It is type-aware, meaning that its output changes based on the data type of the input. The output above only makes sense for numerical data.
+
+Below we can see the describe() method applied to numeric data:
+
+
+**describe() method for non-numeric values:** For non-numeric data (object) the number of values, the number of distinct values, the mode, and their frequency are calculated. If the type is not specified, only numeric columns are considered. 
+
+Below we can see the describe() method applied to string data:
 
 ![image](https://github.com/CLAREISMO/test/assets/63759427/18f00235-934c-4d8e-93d7-1a1686846314)
 
 ![image](https://github.com/CLAREISMO/test/assets/63759427/d8af7196-77cf-4a3f-a812-dbdca59c5e75)
 
 ![image](https://github.com/CLAREISMO/test/assets/63759427/701f1d5a-be72-491b-af4e-ce54e634db77)
+
+
+
 
 
 
