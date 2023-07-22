@@ -150,7 +150,89 @@ Let's see the following example:
 
 ![image](https://github.com/CLAREISMO/test/assets/63759427/70a7fc9e-f638-4c58-901d-cf7e892e10de)
 
-This operation produced a Series of True/False booleans based on the condition of each record. This result can then be used inside of loc to select the relevant data:
+This operation produced a Series of True/False booleans based on the condition of each record. This result can then be used inside of loc to select the 
+relevant data:
+
++ We can know the percentage of occurrence of a value:
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/410f6a20-30e4-4b9f-bf60-050d3965cf0c)
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/d0f22c8a-b834-4b96-a23b-fcc8d70a3c87)
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/2631d85f-076e-429f-bd13-361481375ba9)
+
+
++ We can use the ampersand (&) to join two queries: in this case, we want to return the records of the DataFrame that meet the following conditions at the same time:  TP =="538" & Weight <= 0.4
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/914d38ca-cd3a-459d-8c62-a898d693a272)
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/0193d308-2cc0-4d17-9bed-8a4300e5fa45)
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/7e721f49-9cc5-4503-8135-988352413944)
+
+
++ We can also use the conditional pipe (|) to join two queries: in this case, we want to return the records of the DataFrame that meet one of the two requested queries, they only have to meet one condition TP =="538" | Weight <= 0.4. For this, we use a pipe (|):
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/4aa13e35-16c3-48cf-8a4c-0215135fd488)
+
+**We can conclude that the ampersand(&) operator behaves as an AND conditional while the pipe (|) operator behaves as an OR conditional.**
+
+
+### **Pandas  built-in conditional selectors**
+
+Pandas come with a few built-in conditional selectors, two of which we will highlight here. The first is isin. isin lets you select data whose value "is in" a list of values.
+
+
+**isin method**: 
+![image](https://github.com/CLAREISMO/test/assets/63759427/def24936-ab29-48d3-893d-0fd3fac1e7fd)
+
++ We can request several objects that meet the given condition through the isin method!
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/add5a376-ac4f-4653-b18b-106d8d13e659)
+
++ We can also apply the loc selector together with the method isin:
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/d20951b8-79cd-4f41-9f2c-523e53e8645d)
+
+
++ It is also possible to filter the data given a condition:
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/2ba2c723-6380-463d-91ee-4cbd33fe5639)
+
+
+**isnull and notnull methods**
+
+The second Pandas built-in conditional selector is isnull (and its companion notnull). These methods let you highlight values that are (or are not) empty (NaN). 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
