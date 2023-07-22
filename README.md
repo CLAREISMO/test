@@ -18,9 +18,10 @@ we will use a new dataset so that you can observe different behaviors and infer 
 ### **Sumary Function**
 
 **describe() method:**
+The describe() method: returns a DataFrame with a statistical summary of the columns of the DataFrame df of the type
 
 
-**describe() method for numeric values:** The describe() method: returns a DataFrame with a statistical summary of the columns of the DataFrame df of the type. For numeric data (number) the mean, standard deviation, minimum, maximum, and quartiles are calculated. This method generates a high-level summary of the attributes of the given column. It is type-aware, meaning that its output changes based on the data type of the input. The output above only makes sense for numerical data.
+**describe() method for numeric values:** . For numeric data (number) the mean, standard deviation, minimum, maximum, and quartiles are calculated. This method generates a high-level summary of the attributes of the given column. It is type-aware, meaning that its output changes based on the data type of the input. The output above only makes sense for numerical data.
 
 Below we can see the describe() method applied to numeric data:
 
