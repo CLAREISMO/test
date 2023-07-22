@@ -42,6 +42,10 @@ Let's see a third example with the column Ajio MRP
 
 If the attribute name has spaces in it, as in this case "Ajio MRP", we can't access it in this way because it will generate an error. We can access it by the column number or by the indexing operator ([]).
 
+**the indexing ([]) operator**: If we have a Python dictionary, we can access its values using the indexing ([]) operator. We can do the same with columns in a DataFrame:
+
+
+
 
 
 
