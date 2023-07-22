@@ -79,11 +79,26 @@ To select the first row of data in a DataFrame, we may use the following:
 
 On its own, the (:) operator, which also comes from native Python, means "everything". When combined with other selectors, however, it can be used to indicate a range of values. 
 
-For example, to select the first, second, and third rows of the first column, we would have to:
++ For example, to select the first, second, and third rows of the first column, we would have to:
 
 ![image](https://github.com/CLAREISMO/test/assets/63759427/67d8d95d-d6a3-4796-9a91-a8ac64bfcfc4)
 
-If we want to select the second and third row of column 0, we have to:
++ If we want to select the second and third row of column 0, we have to:
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/7fc2842c-1a97-433c-8409-9d797955b5c8)
+
++ It's also possible to pass a list:
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/56d50fdd-7372-4993-a972-60f449170de7)
+
+
+Finally, it's worth knowing that negative numbers can be used in selection. This will start counting forwards from the end of the values. So for example here are the last five elements of the dataset.
+
+
+
+
+
+
 
 
 
