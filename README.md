@@ -18,6 +18,7 @@ we will use a new dataset so that you can observe different behaviors and infer 
 ### **Sumary Function**
 
 **describe() method:**
+
 The describe() method: returns a DataFrame with a statistical summary of the columns of the DataFrame df of the type
 
 
