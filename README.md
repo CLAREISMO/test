@@ -85,6 +85,27 @@ There are two mapping methods that you will use often.
 
 Going deeper into the map() method we have that:
 
+![image](https://github.com/CLAREISMO/test/assets/63759427/d0f1bb60-d6e3-4955-9d74-ac27fa69123c)
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/d65c7d74-f377-47de-9148-04d98b3680a7)
+
+
+**2. apply() method**: The function you pass to map() should expect a single value from the Series (a point value, in the above example), and return a transformed version of that value. map() returns a new Series where all the values have been transformed by your function.
+apply() is the equivalent method if we want to transform a whole DataFrame by calling a custom method on each row.
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/213db147-bf27-4851-a4d1-4f9f4d3129dd)
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/e158d6a9-bea9-4838-81f7-467ca397d445)
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/f4f413db-211b-45da-884b-f7e11689f6c8)
+
+
+
+
+
+
+
+
 
 
 
