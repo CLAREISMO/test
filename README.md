@@ -44,6 +44,85 @@ Below we can see the describe() method applied to string data:
 
 
 
+**mean() function**
+
+If you want to get some particular simple summary statistic about a column in a DataFrame or a Series, there is usually a helpful Pandas function that makes it happen.
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/98a03d1e-1bf0-4d17-88ad-686ae1a788a1)
+
+
+**unique() function**
+
+To see a list of unique values we can use the unique() function:
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/4ddce6a4-e628-4bd4-84e7-eade13986739)
+
+
+**value_counts() method**
+To see a list of unique values and how often they occur in the dataset, we can use the value_counts() method:
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/1e195f53-dc86-4e15-875f-082ff38380cc)
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/36d4f2b1-c5eb-4091-bbdd-de218f645fa3)
+
+
+### **Maps**
+
+A map is a term, borrowed from mathematics, for a function that takes one set of values and "maps" them to another set of values. 
+
+In data science, we often have a need for creating new representations from existing data, or for transforming data from the format it is in now to the format that we want it to be in later. 
+
+Maps are what handle this work, making them extremely important for getting your work done!
+
+There are two mapping methods that you will use often.
+
+
+**1. map() method**: map() is the first, and slightly simpler one
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/03f880fe-19e4-4273-b90b-32fd21fb0db4)
+![image](https://github.com/CLAREISMO/test/assets/63759427/4c99a60c-187e-4ee9-8c6f-b99e29f81687)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
