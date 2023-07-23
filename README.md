@@ -93,6 +93,8 @@ Going deeper into the map() method we have that:
 **2. apply() method**: The function you pass to map() should expect a single value from the Series (a point value, in the above example), and return a transformed version of that value. map() returns a new Series where all the values have been transformed by your function.
 apply() is the equivalent method if we want to transform a whole DataFrame by calling a custom method on each row.
 
+As we will see below to implement the apply() method it is required to implement the map() method first, let's see the development below.
+
 ![image](https://github.com/CLAREISMO/test/assets/63759427/213db147-bf27-4851-a4d1-4f9f4d3129dd)
 
 ![image](https://github.com/CLAREISMO/test/assets/63759427/e158d6a9-bea9-4838-81f7-467ca397d445)
