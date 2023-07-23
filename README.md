@@ -83,7 +83,7 @@ There are two mapping methods that you will use often.
 ![image](https://github.com/CLAREISMO/test/assets/63759427/4c99a60c-187e-4ee9-8c6f-b99e29f81687)
 
 
-
+Going deeper into the map() method we have that:
 
 
 
