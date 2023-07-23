@@ -26,6 +26,10 @@ The describe() method: returns a DataFrame with a statistical summary of the col
 
 Below we can see the describe() method applied to numeric data:
 
+![image](https://github.com/CLAREISMO/test/assets/63759427/289faa50-8e29-4c90-bfff-dc030d44e5fe)
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/ba6c869f-de48-4f6f-a31d-d57cfad90d92)
+
 
 **describe() method for non-numeric values:** For non-numeric data (object) the number of values, the number of distinct values, the mode, and their frequency are calculated. If the type is not specified, only numeric columns are considered. 
 
