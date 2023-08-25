@@ -25,6 +25,18 @@ For example, we can use the min() function. We then group by the variable ANOS_E
 ![image](https://github.com/CLAREISMO/test/assets/63759427/13454ca3-bd0a-4642-8bfe-fed1f7f78f6c)
 
 
+Let's see another example with the min() function associated with the groupby() method. We see the behavior of the minimum values of the salaries with respect to the variable ANOS_ESCOLARIDAD. 
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/b881c626-2cee-4aab-9d69-01aba174bf39)
+
+We obtain the minimum value of the salaries with respect to the variable SCHOOL_YEARS
+
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/14544a7a-69dc-4379-af0c-2f6e602b68ca)
+
+
+
+
 
 
 
