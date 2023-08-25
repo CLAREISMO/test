@@ -18,7 +18,8 @@ value_counts() is just a shortcut to this groupby() operation.
 
 We can use any of the summary functions we have used before with this data!
 
-For example, we can use the min() function. We then group by the variable ANOS_ESCOLARIDAD and ask it to return the minimum value associated with the variable ESTRATO_VIVIENDA associated with.
+
+**Groupwise analysis and min() function**: For example, we can use the min() function. We then group by the variable ANOS_ESCOLARIDAD and ask it to return the minimum value associated with the variable ESTRATO_VIVIENDA associated with.
 
 ![image](https://github.com/CLAREISMO/test/assets/63759427/27988d25-9dee-4bf4-b4d1-4aafe2f5b051)
 
@@ -33,6 +34,10 @@ We obtain the minimum value of the salaries with respect to the variable SCHOOL_
 
 
 ![image](https://github.com/CLAREISMO/test/assets/63759427/14544a7a-69dc-4379-af0c-2f6e602b68ca)
+
+**Groupwise analysis and max() function**: We can also use the max() function to obtain the maximum values of the variable to be analyzed with respect to the variable established in the groupby() method.
+
+Next, we are going to make a comparison with the previous example. We are going to analyze the maximum values of the salaries with respect to the variable  SCHOOL_YEARS.
 
 
 
