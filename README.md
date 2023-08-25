@@ -14,9 +14,9 @@ As you'll learn, we do this with the groupby() operation. We'll also cover som
 
 ![image](https://github.com/CLAREISMO/test/assets/63759427/235bfc4b-f289-47e4-a7cb-a81ee130702b)
 
-value_counts() is just a shortcut to this groupby() operation.  
++ value_counts() is just a shortcut to this groupby() operation.  
 
-We can use any of the summary functions we have used before with this data!
++ We can use any of the summary functions we have used before with this data!
 
 
 **Groupwise analysis and min() function**: For example, we can use the min() function. We then group by the variable ANOS_ESCOLARIDAD and ask it to return the minimum value associated with the variable ESTRATO_VIVIENDA associated with.
