@@ -1,9 +1,30 @@
 # test
 
-## **3. Summary Functions and Maps**
+## **4. Grouping and Sorting**
 
 ### **Introduction**
 
+Scale up your level of insight. The more complex the dataset, the more this matters!
+
+Maps allow us to transform data in a DataFrame or Series one value at a time for an entire column. However, often we want to group our data, and then do something specific to the group the data is in.
+
+As you'll learn, we do this with the groupby() operation. We'll also cover some additional topics, such as more complex ways to index your DataFrames, along with how to sort your data.
+
+**Groupwise analysis**: One function we've been using heavily thus far is the value_counts() function. We can replicate what value_counts() does by doing the following:
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/235bfc4b-f289-47e4-a7cb-a81ee130702b)
+
+value_counts() es sólo un acceso directo a esta operación groupby().  
+
+Podemos usar cualquiera de las funciones de resumen que hemos usado antes con estos datos!.
+
+
+
+
+
+
+
+#############################################################################################
 we learned how to select relevant data out of a DataFrame or Series. Plucking the right data out of our data representation is critical to getting work done, as we demonstrated in the exercises.
 
 However, the data does not always come out of memory in the format we want it in right out of the bat. Sometimes we have to do some more work ourselves to reformat it for the task at hand. 
