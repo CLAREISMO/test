@@ -39,6 +39,54 @@ We obtain the minimum value of the salaries with respect to the variable SCHOOL_
 
 Next, we are going to make a comparison with the previous example. We are going to analyze the maximum values of the salaries with respect to the variable  SCHOOL_YEARS.
 
+![image](https://github.com/CLAREISMO/test/assets/63759427/fa925a30-274d-4c7f-8c84-6ffd969429ad)
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/3e70aa48-aa30-4089-8ea3-082019ba7c5d)
+
+Through the relationship between Groupwise analysis and other functions, we can obtain valuable information in the analysis of our data.
+
+
+**Apply() method**
+You can think of each group we generate as being a slice of our DataFrame containing only data with values that match. This DataFrame is accessible to us directly using the apply() method, and we can then manipulate the data in any way we see fit.
+
+For a better understanding of the Apply method let's take a look at the following example.
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/106eab59-f535-453a-9837-0aa566ce3d36)
+
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/d137afea-6eab-4513-bce4-d031f810ed45)
+
+**More detailed control with apply:** For even more fine-grained control, you can also group by more than one column.
+
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/e446101a-29ed-4a15-a746-90d6242b4aac)
+
+In the first detailed apply( we are grouping HOUSING_STRATUM AND N_CHILDREN WITH RESPECT TO LABOUR INCOME THAT'S WHY THE COLUMN OF N_CHILDREN_MINOR_15TH ANNUAL INCOME IS kept with the original information of the dataset.
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/e91e58c3-96de-40b2-8279-62d13c4795fe)
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/2d9483a3-23b8-46fc-8a4c-ce73690f607e)
+
+In the second apply() the labels ESTRATO_VIVIENDA and N_HIJOS_HIJOS within the groupby are maintained, these labels are compared with respect to the label N_HIJOS_MENORES_15ANOS through the method apply(). the output shows the change in the presentation of the information.
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/fa695387-bd4c-4a2f-8896-eec363086a51)
+
+![image](https://github.com/CLAREISMO/test/assets/63759427/7bf5e2ee-9d22-4a21-bd4f-51f3a1f39721)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
